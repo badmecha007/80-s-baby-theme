@@ -5,4 +5,6 @@ main
 ask
 theme page
 
-do not use unless you know basic css as it's p confusing
+do not use unless you know basic css as it's p confusing 
+
+2016 badmecha007/crocketts-themes
