@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+     ---------------------
+      -------------------
+       -----------------
+        ---------------
+         -BADMECHA007-
+          -----------
+           ---------
+            -------
+             -----
+              ---
+               -
+           
+           
+========================personal theme 1 - 80's baby==============================
+-->
+<title>ASK</title>
+    <link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'> 
+     
+	<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+    
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+     
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Tinos:700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
+    
+
+<style type="text/css">
+
+	body {
+		background: #322E2B url('http://i.imgur.com/atYtIOA.png') top right fixed no-repeat ;
+		background-size: cover;
+        margin-left: auto;
+        z-index:-999;
+		margin-right: auto;
+        padding: 0;
+        font:normal 20px 'Anaheim', sans-serif;
+        font-size: 20px;
+        color: {color:Text};
+}
+
+
+h2,h3,h4{
+            font-family: 'Limelight', cursive;
+}
+
+    img {
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left:auto;
+        margin-right: auto;
+}
+
+
+#bgrnd{
+        height:0px;
+        width: 0px;
+        z-index:-1;
+        margin:auto;
+        position: fixed;
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+
+    
+}
+
+#bgrnd #blk{
+    width:800px;
+    height:500px;
+    background: rgba(0,0,0,0.7);
+    position:absolute;
+    top:-190px;
+    left:-300px;
+    border-right:5px outset #372EA1 ;
+    border-left:5px outset #372EA1;
+    border-bottom:5px outset #372EA1;
+      animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: 999;
+}
+
+
+
+
+@keyframes lights {
+    0% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    8% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    25% {box-shadow:
+        0 0 9px 3px #fff,
+        0 0 20px 6px #70d8a8, 
+        0 0 14px 9px #e58b50;}
+    41% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #0ff, 
+        0 0 14px 9px #70d8a8;}
+    57% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #9370DB, 
+        0 0 14px 9px #0ff;}
+    83% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 5px 6px #cc70d8, 
+        0 0 14px 9px #9370DB;}
+    100% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+}
+
+
+	.header  {
+
+
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		z-index:1;
+
+		}
+
+    #headert{
+        height: 20px;
+		width: 100% ;
+		top: 0px;
+		z-index: 1;
+		background: #58D6FC;
+    }
+
+    #headerb{
+        height: 20px;
+		width: 100% ;
+		bottom: 0px;
+		z-index: 1;
+		background: #E54BB4;
+    }
+    
+    #headerr{
+        width: 20px;
+		height: 100%;
+		right: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+    
+    #headerl{
+        width: 20px;
+		height: 100%;
+		left: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+        
+
+    
+    #topmid {
+        height:0px;
+        width: 0px;
+        z-index:999;
+        margin:auto;
+        position: fixed;
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.25);
+
+
+    }
+    
+    #topmid #titleblock {
+        height:240px;
+        width:600px;
+		position: fixed;
+    border-top-left-radius:120px;
+    border-bottom-left-radius:120px;
+	top:-330px;
+	left:-500px; 
+		z-index:9999;
+        transform: rotate(-17deg);
+	}
+ #topmid  #titleblock a{
+                color:rgba(242,242,242,1);
+     text-shadow: 0 0 10px rgba(0,67,255,1) , 0 0 20px rgba(0,127,255,1) , 0 0 30px rgba(0,174,255,1) , 0 0 40px #00ffc3 , 0 0 70px #00ff6a , 0 0 80px #00ff4c , 0 0 100px #00ff1d ;
+     transition: text-shadow .5s;
+     z-index:9999;
+  }
+   #topmid #titleblock a:hover {
+  text-shadow: 0 0 10px rgba(0,255,25,1) , 0 0 20px rgba(0,255,85,1) , 0 0 30px rgba(0,255,148,1) , 0 0 40px #00ffff , 0 0 70px #00bbff , 0 0 80px #00bbff , 0 0 100px #00aeff ;
+}
+  .titletext{
+    position:fixed;
+    margin-left:220px;
+    font: 100px 'Seaweed Script', cursive;
+    
+  }
+  
+  .neonbars{
+      z-index:-9999;
+      position:fixed;
+            animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width:700px;
+  height:0;
+      
+  }
+    #neon1{
+      margin-top:100px;
+  }
+  #neon2{
+      margin-top:120px;
+  }
+	
+    #sidebarm {
+        height:100%;
+        width: 1000px;
+        margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+		top: 25%;
+		bottom:0;
+    }
+    
+    .opbars {
+        height: 20px;
+        -webkit-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        text-align: right;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-decoration:none;
+        z-index:98;
+        font: 12px 'Oswald', sans-serif;
+        padding-right:.4em;
+        transition: box-shadow 0.4s, background 0.4s, letter-spacing 0.8s;
+    }
+
+    #topmid #redopbar {
+        width:600px;
+        background:red;
+        cursor:cell;
+		position: fixed;
+		top: -220px;
+		left: -60px;
+		color:yellow;
+    }
+
+    #topmid #redopbar:hover {
+        color: red;
+        letter-spacing: 10px;
+        background-color:cyan;
+        box-shadow:
+        0 0 3px 1px #fff,  /* inner white */
+        0 0 5px 3px #9370DB  , /* middle magenta */
+        0 0 7px 4px #0ff; /* outer cyan */
+    }
+    
+    
+    #topmid #ylwopbar {
+        background:yellow;
+		position: fixed;
+		top: -190px;
+		left: -200px;
+        width:650px;
+    }
+    
+    #topmid #grnopbar {
+        background:green;
+		position: fixed;
+		top: -160px;
+		left: -300px;
+        width:650px;
+    }
+
+    #topmid #bluopbar {
+        background:blue;
+		position: fixed;
+		top: -130px;
+        width:600px;
+        left:-350px;
+    }
+
+    #topmid #desc{
+        width:180px;
+        max-height:400px;
+        min-height:20px;
+       /* background:url('https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/11417399_440096642832305_369483626_n.jpg?ig_cache_key=MTAwMzc2NjY1MjIzMzcwNTM2NQ%3D%3D.2') center no-repeat;
+        background-size:cover;  */
+        box-shadow:
+        0 0 3px 1px #fff,  
+        0 0 5px 3px #9370DB  ,
+        0 0 7px 4px #0ff;
+        position:fixed;
+        border: 3px outset red;
+        padding: .3em .1em .3em .1em;
+        transform: translate(-275px,-30px);
+        font: 18px 'Limelight', cursive;
+        text-shadow: 
+            1px 1px #000,
+            2px 2px #000,
+            3px 3px #000;
+        color: yellow;
+        text-align:center;
+        text-transform: uppercase;
+        transition: text-shadow 1s;
+    }
+    
+    #topmid #desc:hover{
+        text-shadow: 
+        0 0 rgba(255,255,255,0), 
+        1px 1px 0 red, 
+        2px 2px 0 orange, 
+        3px 3px 0 yellow, 
+        4px 4px 0 green, 
+        5px 5px 0 blue, 
+        6px 6px 0 indigo, 
+        7px 7px 0 violet;
+    }
+    
+    #content {
+        background:url('http://www.richardfarrar.com/downloads/cctv-lines.png') top left fixed repeat;
+        left:200px;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        margin-top: -220px;
+        position:absolute;
+		width: 750px;
+		height: 380px;
+        overflow: hidden;
+		color: #fff;
+		float: center;
+		margin: auto;
+		margin-top: -220px;
+	    border: 5px outset #372EA1;
+	    transform: translate(0,130px);
+
+    }
+
+
+    #telly {
+        position:fixed;
+        transform:translate(165px, 70px);
+    }
+
+
+#s-m-t-tooltip {
+    max-width:300px;
+    transform: translate(0.5em, 0.5em);
+    height:18px;
+    border-radius: 0px;
+    padding:4px;
+    color:#FFFF00;
+    text-shadow: 1px 1px #000;
+    border:2px solid #000;
+    letter-spacing:1px;
+    background: #ef3ed5; /* Old browsers */
+    background: -moz-linear-gradient(top, #ef3ed5 0%, #2ec5ea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ef3ed5 0%,#2ec5ea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ef3ed5 0%,#2ec5ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3ed5',      endColorstr='#2ec5ea',GradientType=0 ); 
+    font: 15px 'Limelight', cursive;
+    z-index:99999;}
+
+
+</style>
+
+<script type="text/javascript">
+function open(askbox) {
+    var askcontainer = document.getElementById(askbox);
+    if (askcontainer) {askcontainer.className=(askcontainer.className=='closed')?'open':'closed';}
+}
+</script>
+
+<!--tooltip script-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ 
+<script src="http://static.tumblr.com/fiw4iub/4jdnu5ta4/jquery.style-my-tooltips.js"></script>
+ 
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:10,
+tip_fade_speed:0,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+
+
+
+</head>
+<body>
+<div id="headert" class="header"></div>
+<div id="headerb" class="header"></div>
+<div id="headerr" class="header"></div>
+<div id="headerl" class="header"></div>
+
+<div id="bgrnd">
+    <div id="blk"></div>
+</div>
+
+<div id="topmid">
+    <a href="/" title="BACK TO CROCKETT'S THEMES"><div id="redopbar" class="opbars"><i>HOME</i></div></a>
+    <div id="ylwopbar" class="opbars"> ♦ </div>
+    <div id="grnopbar" class="opbars"> ♦ </div>
+    <div id="bluopbar" class="opbars"> ♦ </div>
+
+
+	<div id="titleblock"><a href="http://crocketts-themes.tumblr.com/">
+<img src="http://i.imgur.com/LUl64GJ.png" width="220" height="220" style="position: absolute; z-index: 1">
+<div id="neon1" class="neonbars"></div>
+<div id="neon2" class="neonbars"></div>
+<div class="titletext">crockett's </div>
+<div class="titletext" style="margin-top:90px">themes</div>
+</a>
+</div>
+
+</div>
+
+
+
+<!--DO NOT REMOVE THIS CODE WITHIN THIS COMMENT-->
+  
+<a href="http://badmecha007.tumblr.com/">
+<div id="ident"></div></a>
+
+<!---->
+
+<div id="content">
+<div id="title" style="transform:translate(160px,30px);text-align;center; width:100%; color:yellow;position:absolute">
+
+<h2 style="font-size:20px; margin-left:100px">ASK/REPORT A BUG:</h2>
+</div>
+
+<div id="telly">
+<iframe frameborder="0" border="0" scrolling="no" width="400" height="255" allowtransparency="true" src="http://www.tumblr.com/ask_form/crocketts-themes.tumblr.com" style="background-color:transparent; overflow:hidden; border: 10px inset #3d0099; broder-radius: 5px"></iframe>
+</div>
+
+</div> <!--content-->
+
+</body>
