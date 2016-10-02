@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+     ---------------------
+      ---CROCKETT'S------
+       ----THEMES-------
+        -(BADMECHA007)-
+         -------------
+          -----------
+           ---------
+            -------
+             -----
+              ---
+               -     @2016 badmecha007, @1980 design inspo
+           
+           -----------------=========RULES:
+           | 1. Do not steal or claim as your own.
+           | 2. Do not use as base code. As well 
+           | as my coding system being fucking 
+           | confusing, my code is not up for 
+           | base use, period. 
+           | 3. Leave the watermark intact. 
+           | Do not remove it from the code
+           | when customising.
+           | 4. Minor modifications are fine.
+           | You may take inspiration from my 
+           | CSS such as the rainbow border 
+           | (check on my blog or ask 
+           | for specific css if you wish)
+           | but try not to take giant snippets
+           | of code (+8 lines of CSS).
+           | 5. Share and reblog the original 
+           | post in goodwill if you do use this theme.
+		   
+		   
+		   Big thanks to SMT tooltips for the tooltip 
+           java code, mahilu for the scrollbar code, themesbyeris
+           for her base code, w3schools and  various nameless
+           peeps on jsfiddle for inspiration and help.
+           
+========================personal theme 1 - 80's baby==============================
+
+https://webdesign.tutsplus.com/tutorials/create-a-customized-html5-audio-player--webdesign-7081
+
+http://vanne-statprev.tumblr.com/musictab2
+
+mp3 player 
+    --> 
+	<meta name="color:Trimmings" content=""/>
+	<meta name="color:Title" content="" /> 
+	<meta name="image:Background" content="" />
+	<meta name="color:headerBG" content="" />
+	<meta name="image:headerBG" content="" />
+
+	
+<title>{Title}{block:PostSummary}, {PostSummary}{/block:PostSummary}</title>
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+<link rel="shortcut icon" href="{Favicon}" />
+
+	
+    <link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
+     
+	<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+    
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+     
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Tinos:700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css"><!--scrollbaar stylesheet-->
+
+<style type="text/css"> 
+
+
+	body {
+		background: #322E2B url('http://i.imgur.com/atYtIOA.png') top right fixed no-repeat ;
+		background-size: cover;
+        margin-left: auto;
+        z-index:-999;
+		margin-right: auto;
+        padding: 0;
+        font-family: 'Anaheim', sans-serif;
+        color: {color:Text};
+}
+
+/* cursor: url('http://i.imgur.com/1AEV1rf.png'), auto; */
+
+    img {
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left:auto;
+        margin-right: auto;
+}
+
+h2 , .title{
+    font-family: 'Seaweed Script', cursive;
+    text-transform:lowercase;
+    text-shadow: 2px 2px #000;;
+    font-size:35px;
+    font-weight: 900;
+}
+
+p {
+    margin-bottom:5px; 
+    
+}
+
+#bgrnd{
+        height:0px;
+        width: 0px;
+        z-index:-1;
+        margin:auto;
+        position: fixed;
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+
+    
+}
+
+.flashyborder{
+        border-right:5px outset #372EA1 ;
+    border-left:5px outset #372EA1;
+    border-bottom:5px outset #372EA1;
+      animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#bgrnd #blk{
+    width:800px;
+    height:500px;
+    background: rgba(0,0,0,0.7);
+    position:absolute;
+    top:-190px;
+    left:-300px;
+
+}
+
+
+
+
+@keyframes lights {
+    0% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    8% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    25% {box-shadow:
+        0 0 9px 3px #fff,
+        0 0 20px 6px #70d8a8, 
+        0 0 14px 9px #e58b50;}
+    41% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #0ff, 
+        0 0 14px 9px #70d8a8;}
+    57% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #9370DB, 
+        0 0 14px 9px #0ff;}
+    83% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 5px 6px #cc70d8, 
+        0 0 14px 9px #9370DB;}
+    100% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+}
+
+
+	.header  {
+
+
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		z-index:1;
+
+		}
+
+    #headert{
+        height: 20px;
+		width: 100% ;
+		top: 0px;
+		z-index: 1;
+		background: #58D6FC;
+    }
+
+    #headerb{
+        height: 20px;
+		width: 100% ;
+		bottom: 0px;
+		z-index: 1;
+		background: #E54BB4;
+    }
+    
+    #headerr{
+        width: 20px;
+		height: 100%;
+		right: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+    
+    #headerl{
+        width: 20px;
+		height: 100%;
+		left: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+        
+
+    
+    #topmid {
+        height:0px;
+        width: 0px;
+        z-index:999;
+        margin:auto;
+        position: fixed;
+        
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.25);
+
+
+    }
+    
+    #topmid #titleblock {
+        height:240px;
+        width:600px;
+		position: fixed;
+    border-top-left-radius:120px;
+    border-bottom-left-radius:120px;
+	top:-330px;
+	left:-500px; 
+		z-index:9999;
+        transform: rotate(-17deg);
+	}
+ #topmid  #titleblock a{
+                color:rgba(242,242,242,1);
+     text-shadow: 0 0 10px rgba(0,67,255,1) , 0 0 20px rgba(0,127,255,1) , 0 0 30px rgba(0,174,255,1) , 0 0 40px #00ffc3 , 0 0 70px #00ff6a , 0 0 80px #00ff4c , 0 0 100px #00ff1d ;
+     transition: text-shadow .5s;
+     z-index:9999;
+  }
+   #topmid #titleblock a:hover {
+  text-shadow: 0 0 10px rgba(0,255,25,1) , 0 0 20px rgba(0,255,85,1) , 0 0 30px rgba(0,255,148,1) , 0 0 40px #00ffff , 0 0 70px #00bbff , 0 0 80px #00bbff , 0 0 100px #00aeff ;
+}
+  .titletext{
+    position:fixed;
+    margin-left:220px;
+    font: 100px 'Seaweed Script', cursive;
+    
+  }
+  #topmid #titleblock img{
+      top: 12px;
+  }
+  .neonbars{
+      z-index:-9999;
+      position:fixed;
+            animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width:700px;
+  height:0;
+      
+  }
+    #neon1{
+      margin-top:100px;
+  }
+  #neon2{
+      margin-top:120px;
+  }
+	
+    #sidebarm {
+        height:100%;
+        width: 1000px;
+        margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+		top: 25%;
+		bottom:0;
+    }
+    
+    .opbars {
+        height: 20px;
+        -webkit-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        text-align: right;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-decoration:none;
+        z-index:98;
+        font: 12px 'Oswald', sans-serif;
+        padding-right:.4em;
+        transition: box-shadow 0.4s, background 0.4s, letter-spacing 0.8s;
+    }
+    
+    .opbars:hover {
+        cursor: cell;
+        letter-spacing: 10px;
+    }
+
+    #topmid #redopbar {
+        width:600px;
+        background:red;
+		position: fixed;
+		top: -220px;
+		left: -60px;
+		color:yellow;
+    }
+
+    #topmid #redopbar:hover {
+        color: red;
+        background-color:cyan;
+        box-shadow:
+        0 0 3px 1px #fff,  /* inner white */
+        0 0 5px 3px #9370DB  , /* middle magenta */
+        0 0 7px 4px #0ff; /* outer cyan */
+    }
+    
+    
+    #topmid #ylwopbar {
+        background:yellow;
+		position: fixed;
+		top: -190px;
+		left: -200px;
+        width:650px;
+    }
+    
+    #topmid #ylwopbar:hover {
+        color: yellow;
+        background-color:purple;
+        box-shadow:
+        0 0 3px 1px #fff, 
+        0 0 5px 3px #C182FF  ,
+        0 0 7px 4px #FFFC42;
+    }
+    
+    #topmid #grnopbar {
+        background:green;
+		position: fixed;
+		color: orange;
+		top: -160px;
+		left: -300px;
+        width:650px;
+    }
+    
+    #topmid #grnopbar:hover {
+        color: 00ff61;
+        background-color:Fuchsia;
+        box-shadow:
+        0 0 3px 1px #fff, 
+        0 0 5px 3px #FF2EE7  , 
+        0 0 7px 4px #FF9CF3;
+    }
+    
+    
+    #topmid #bluopbar {
+        background:blue;
+		position: fixed;
+		color:orange;
+		top: -130px;
+        width:600px;
+        left:-350px;
+    }
+    
+    #topmid #bluopbar:hover {
+        color: blue;
+        background-color: orange;
+    }
+    
+        #topmid #bluopbar i{
+        color: yellow;
+    }
+    
+    #topmid #desc{
+        width:180px;
+        max-height:400px;
+        min-height:20px;
+        overflow: hidden;
+       /* background:url('https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/11417399_440096642832305_369483626_n.jpg?ig_cache_key=MTAwMzc2NjY1MjIzMzcwNTM2NQ%3D%3D.2') center no-repeat;
+        background-size:cover;  */
+  /*      box-shadow:
+        0 0 3px 1px #fff,  
+        0 0 5px 3px #9370DB  ,
+        0 0 7px 4px #0ff;*/
+        position:fixed;
+     /*   border: 3px outset red;*/
+        padding: .3em .1em .3em .1em;
+        transform: translate(-275px,-30px);
+        font: 18px 'Limelight', cursive;
+        text-shadow: 
+            1px 1px #000,
+            2px 2px #000,
+            3px 3px #000;
+      color: yellow;
+        text-align:center;
+        text-transform: uppercase;
+        transition: text-shadow 1s;
+        
+        
+   /*       text-shadow: 1px 1px 0px #7CACDE;
+   
+   upd test 11/09/16 \/ \/ \/ \/*/
+  border: 5px outset #FF30F8;
+
+  background: linear-gradient(#E54BB4,  #FF2EFF);
+
+    }
+        #desc li::selection {
+  background: #00ffc3;
+  color: white;
+}
+    #desc li::-moz-selection {
+  background: #00ffc3;
+  color: white;
+}
+
+    #topmid #desc:hover{
+        cursor: cell;
+       /* 
+       
+       rainbow text font:
+       
+       text-shadow: 
+        0 0 rgba(255,255,255,0), 
+        1px 1px 0 red, 
+        2px 2px 0 orange, 
+        3px 3px 0 yellow, 
+        4px 4px 0 green, 
+        5px 5px 0 blue, 
+        6px 6px 0 indigo, 
+        7px 7px 0 violet;*/
+    }
+
+#topmid #progmenu{
+    height:200px;
+    width:300px;
+    position:absolute;
+    margin-left:-700px;
+    margin-top:103px;
+    border-top:5px outset #372EA1;
+    background: rgba(0,0,0,0.7) url('http://www.richardfarrar.com/downloads/cctv-lines.png') top left fixed repeat ;
+     
+}
+
+#progmenutitle{
+   font-family: 'Seaweed Script', cursive;
+   font-size: 30px;
+   margin-top:-40px;
+   margin-left:63px;
+   color: rgba(242,242,242,1);
+text-shadow: 0 0 5px rgba(0,67,255,1) , 0 0 10px rgba(0,127,255,1) , 0 0 15px rgba(0,174,255,1) , 0 0 20px #00ffc3 , 0 0 35px #00ff6a , 0 0 40px #00ff4c , 0 0 50px #00ff1d;
+}
+
+
+    #content {
+        background:url('http://www.richardfarrar.com/downloads/cctv-lines.png') top left fixed repeat;
+        left:200px;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        margin-top: -220px;
+        position:absolute;
+		width: 530px;
+		height: 380px;
+        overflow-y: auto;
+        overflow-x: hidden;
+		color: #fff;
+		float: center;
+		margin: auto;
+		margin-top: -220px;
+	    border: 5px outset #372EA1;
+	    transform: translate(100px,130px);
+	
+
+    }
+
+    #content #posts {
+
+        margin: auto;
+        left:70px;
+        color: #FCDC0F;
+        padding-top: .8em;
+        padding-left: 1em;
+        padding-right: 1em;
+	    width: 440px;
+        background-attachment: inherit;
+        margin-bottom: 60px;
+            margin-left: 17px;
+        background: rgba(0,63,102,0.5);
+        border: 5px inset #E54BB4;
+
+    }
+    #content #posts .img {
+        max-width: 100%;
+        border:0;
+        height: auto;
+    }
+    
+    #content #posts .text {
+        font-size:18px;
+        background: rgba(0,0,0,0.1);
+        line-height:90%;
+    }
+    
+    #content #posts .text a{
+        color:#ff0098;
+        text-shadow: 2px 2px #000;
+        transition: color 0.4s, box-shadow 0.2s;
+        
+}
+
+    #content #posts .text a:hover{
+        color: #fff;
+}
+    
+    #content #posts #text img {
+        display: block;
+        max-width: 200px; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+    #content #posts a {
+        color:yellow;
+        font: 18px 'Seaweed Script', cursive;
+        text-decoration:none;
+        transition: text-shadow 0.4s, color 0.4s;
+}
+
+    #content #posts a:hover {
+        text-shadow: 
+        0px 0px 7px rgba(255, 255, 255, 1),
+        0px 0px 3px rgba(0, 255, 255, 1);
+}
+
+
+#content #posts .asker{
+        font: 24px 'Seaweed Script', cursive;
+        text-shadow: 1px 1px #000, -1px -1px #000;
+        color:yellow;
+        position:fixed;
+        transform: translate(-10px, -10px) rotate(-7deg);
+    
+}
+
+
+#content #posts .asker:hover {
+        color:red;
+        text-shadow: 
+        0px 0px 7px rgba(255, 255, 255, 1),
+        0px 0px 3px rgba(0, 255, 255, 1);
+}
+
+#content #posts .asker a{
+        font: 24px 'Seaweed Script', cursive;
+        text-shadow: 1px 1px #000, -1px -1px #000;
+        text-decoration:none;
+        color:yellow;
+        font-style: italic;
+    
+}
+
+
+#content #posts .asker a:hover {
+        color:red;
+        text-shadow: 
+        0px 0px 7px rgba(255, 255, 255, 1),
+        0px 0px 3px rgba(0, 255, 255, 1);
+}
+
+#content blockquote {
+     border-left: 3px inset #0ff;
+    margin-left: 10px;
+    padding: 0px 0px 0px 8px;
+    margin-right: 0;
+}
+    
+    /*vidya code*/
+    
+    #content #posts .vidya{
+        box-shadow: 0 0 3px 1px #fff, 0 0 5px 3px #ff7cbb, 0 0 7px 4px #ffb7d0;
+	height: auto;
+        
+    }
+    
+    /*end vidya code*/
+    
+    /*VIDDY: embed trick add
+    http://webdesignerwall.com/tutorials/css-elastic-videos
+    
+    
+    */
+    
+    
+    #content #posts #permabox {
+        border: 3px solid {color:Trimmings};
+        background: {color:Perma} url('{image:Perma}');
+        margin-top:10px;
+        color: #fff;
+        transition: background .25s ;
+        -webkit-transition: background .25s 
+
+    }
+    
+        #content #posts #permabox:hover{
+            background:rgba(125, 125, 125, 0.27) ;
+
+   }
+    
+    #content #posts #permabox a{
+         color: #fff;
+         font-size:15px
+      text-decoration: none;
+
+
+    }
+    
+        #content #posts #permabox a:hover{
+		color: #03b700;
+		text-decoration: none
+
+    }
+
+
+        #content #posts #permalink {
+    font-size:15px;
+    list-style-type: none;
+
+    
+}
+ 
+
+ #content #posts #permalink li{
+        list-style-type: none;
+ }
+ 
+#content #posts #tags {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#content #posts #tags .comma:last-child {
+    display: none;
+
+}
+
+
+
+#infoblock{
+    display:inline-block;
+    transform: translateY(15px);
+    
+}
+
+
+    .sbars{
+        box-shadow: 0px 10px 0px -3px rgba(0,0,0,1); 
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        z-index:98;
+        font: 10px 'Play', sans-serif;
+        transition: transform 0.4s,box-shadow 0.8s, letter-spacing 0.4s, height 0.4s;
+        text-align:center;
+        
+    }
+    
+    .sbars a{
+        font: 10px 'Play', sans-serif;
+    }
+
+    .sbars:hover {
+        cursor: cell;
+        transform: translate(-5px, -7px);
+        margin-left:auto;
+        letter-spacing: 8px;
+        margin-right:auto;
+        color:#fff;
+        box-shadow:
+        0 0 2px 1px #fff,  
+        0 0 3px 2px #9370DB  , 
+        0 0 5px 3px #0ff; 
+    }
+    
+#content #posts #rebline{
+        height:15px;
+        width: 480px;
+        transform: translate(-20px, -15px);
+        background:red;
+        position:fixed;
+        color:yellow;
+}
+
+#content #posts #rebline:hover{
+        color:#fff;
+}
+
+#content #posts #likeline{
+        height:15px;
+        width: 450px;
+        transform: translate(-5px, 5px);
+        background:blue;
+        position:fixed;
+}
+#content #posts #likeline:hover{
+        color:#fff;
+}
+#content #posts #permline{
+        width: 415px;
+        padding-left:5px;
+        height:15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: hidden;
+        transform: translate(10px, 26px);
+        background:green;
+        position:fixed;
+        
+}
+#content #posts #permline:hover{
+        height:30px;
+}
+#content #posts #permline a{
+        font: 10px 'Play', sans-serif;
+        color: yellow;
+}
+#content #posts #permline a:hover{
+        color: white;
+    }
+
+#content #posts #question{
+    border: 3px outset #3d0099;
+    width:80%;
+    transform: translate(60px, 0);
+}
+
+#content #posts #cassette img{
+    height:75px;
+    width:75px;
+}
+
+
+ #content #notecontainer {
+    margin: 20px auto;
+    font: 10px 'Play', sans-serif;
+    width: 90%;
+    background: rgb(0,0,0,0.25);
+    box-shadow:
+        0 0 2px 1px #fff,  /* inner white */
+        0 0 3px 2px #9370DB  , /* middle magenta */
+        0 0 5px 3px #0ff; /* outer cyan */
+}
+ 
+#content #notecontainer ol.notes {
+        padding-top:5px;
+    list-style-type: none;
+    padding-left: 15px;
+    margin: 0;
+}
+
+#content #notecontainer ol.notes a{
+    font: 15px 'Seaweed Script', cursive;
+    text-decoration:none;
+    color: #0800FF;
+    text-shadow: -1px -1px 0 #00FF7C, 1px -1px 0 #00FF7C, -1px 1px 0 #00FF7C, 1px 1px 0 #00FF7C;
+}
+
+#content #notecontainer img.avatar {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+#navigation {             
+    text-align: center;
+    text-transform: lowercase;
+    width:170px;
+    padding: 5px 5px;
+text-shadow:0px 0px #000;
+    }
+                        
+#navigation:hover{         
+    text-transform: lowercase;
+    color:orange;
+    opacity: 0.9;
+    text-shadow:0px 0px #000;
+    }
+                        
+ #navigation a {
+        text-align: center;
+        font: 11px 'Limelight', cursive;
+        background-color: #000;
+        height:15px;
+        text-transform: uppercase;
+        padding: 2px 4px;
+        margin-left: 2px;
+        border: 3px inset red;
+        text-decoration: none;
+        color:fuchsia;
+    }
+                            
+#navigation a:hover {
+        color:green;
+    }
+                            
+    #ident {
+        background: url('http://i.imgur.com/9MBwXCI.png') center no-repeat;
+        background-size: contain;
+        height:50px;
+        width:50px;
+        bottom:20px;
+        z-index:99999999;
+        position:fixed;
+        right:20px;
+        opacity:0.6;
+        transition: opacity 0.6s;
+    }
+    #ident:hover {
+        opacity:1;
+    }
+    
+    #ident2 {
+        background: url('http://i.imgur.com/LUl64GJ.png') center no-repeat;
+        background-size: contain;
+        height:50px;
+        width:50px;
+        bottom:75px;
+        z-index:99999999;
+        position:fixed;
+        right:20px;
+        opacity:0.6;
+        transition: opacity 0.6s;
+    }
+    #ident2:hover {
+        opacity:1;
+    }
+                             
+#s-m-t-tooltip {
+    max-width:300px;
+    transform: translate(0.5em, 0.5em);
+    height:18px;
+    border-radius: 0px;
+    padding:4px;
+    color:#FFFF00;
+    text-shadow: 1px 1px #000;
+    border:2px solid #000;
+    letter-spacing:1px;
+    background: #ef3ed5; /* Old browsers */
+    background: -moz-linear-gradient(top, #ef3ed5 0%, #2ec5ea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ef3ed5 0%,#2ec5ea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ef3ed5 0%,#2ec5ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3ed5',      endColorstr='#2ec5ea',GradientType=0 ); 
+    font: 15px 'Limelight', cursive;
+    z-index:99999;}
+ 
+ 
+ #content #posts #photo{
+     margin-right:auto;
+     margin-left:auto;
+     margin-top: 10px;
+     box-shadow: 0 0 3px 1px #fff, 0 0 5px 3px #ff7cbb, 0 0 7px 4px #ffb7d0;
+     transition: box-shadow 0.8s;
+ }
+ 
+  #content #posts #photo:hover{
+     box-shadow: 0 0 6px 3px #fff, 0 0 10px 6px #ff7cbb, 0 0 14px 9px #ffb7d0;
+ }
+ 
+ 
+ 
+  #content #posts #photo img{
+      width:100%;
+      height:auto;
+ }
+ 
+ 
+  #content #posts #bphotoset{
+     transition: box-shadow 0.8s;
+     width:450px;
+     margin-left: -5px;
+ }
+ 
+   #content #posts #bphotoset:hover{
+ }
+ 
+ #content #posts #bphotoset .photoset{
+     margin-top:10px;
+          margin-right:auto;
+     margin-left:auto;
+ }
+ 
+/*box-shadow: 0 0 6px 3px #fff, 0 0 10px 6px #9370DB, 0 0 14px 9px #0ff;*/
+ 
+  #content #posts #bphotoset .photoset img{
+      box-shadow: 0 0 3px 1px #fff, 0 0 5px 3px #9370DB, 0 0 7px 4px #0ff;
+      width:100%;
+      height:auto;
+        }
+
+#audioplayer
+{
+    background-color: #000;
+    opacity: 0.5;
+        transition: opacity 0.4s;
+}
+
+#audioplayer:hover
+{
+    opacity: 0.8;
+}
+
+
+
+
+.mCSB_scrollTools .mCSB_draggerRail { background:rgba(0,255,106, 0.5); width:2px; }
+
+
+.mCSB_draggerContainer { width:8px; }
+.mCSB_scrollTools .mCSB_dragger { cursor:auto; }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width:5px;
+    background:#ffffcc;
+    text-align:center;
+    box-shadow: 0 0 3px 1px #fff, 0 0 5px 3px #ffff1a, 0 0 7px 4px #ffff4d;
+    border-radius:2px; }
+.mCSB_scrollTools { opacity:1; }
+.mCSB_container{
+    padding: 20px 0px 5px;
+}
+
+</style>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.js"></script><!--scrollbar code-->
+ 
+  <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+ 
+ <script>
+ var jqscroll = $.noConflict()
+    (function(jqscroll){
+        jqscroll(window).on("load",function(){
+            jqscroll("#content").mCustomScrollbar({
+                scrollInertia:700,
+                alwaysShowScrollbar: 2,
+                MouseWheel:{ enable: true },
+                scrollButtons:{ enable: false },
+                keyboard:{ enable: true },
+                scrollbarPosition:"inside",
+            });
+        });
+    })(jQuery);
+</script>
+
+ 
+ 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="http://static.tumblr.com/fiw4iub/4jdnu5ta4/jquery.style-my-tooltips.js"></script><!--tooltip code-->
+ <!--tooltip script-->
+<script>
+ var jqttip = $.noConflict()
+(function(jqttip){
+jqttip(document).ready(function(){
+jqttip("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:10,
+tip_fade_speed:0,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+
+
+
+</head>
+<body>
+<div id="headert" class="header"></div>
+<div id="headerb" class="header"></div>
+<div id="headerr" class="header"></div>
+<div id="headerl" class="header"></div>
+
+<div id="bgrnd">
+    <div id="blk" class="flashyborder"></div>
+</div>
+
+<div id="topmid">
+    <a href="/askalt"><div id="redopbar" class="opbars"><i>{AskLabel}</i></div></a>
+    <a href="/submit"><div id="ylwopbar" class="opbars"><i>{SubmitLabel}</i></div></a>
+    <a href="/themes"><div id="grnopbar" class="opbars"><i>THEMES</i></div></a>
+    <div id="bluopbar" class="opbars">RESOURCES & TUTORIALS - <i>COMING SOON</i></div>
+
+
+<div id="titleblock"><a href="http://crocketts-themes.tumblr.com/">
+<img src="http://i.imgur.com/LUl64GJ.png" width="220" height="220" style="position: absolute; z-index: 1">
+<div id="neon1" class="neonbars"></div>
+<div id="neon2" class="neonbars"></div>
+<div class="titletext">crockett's </div>
+<div class="titletext" style="margin-top:90px">themes</div>
+</a>
+</div>
+	
+	<div id="desc">
+	<li style="list-style: none; z-index:2">{Description}</li>	    
+	<img style="position: absolute;left:0;top: 0;width: 100%;height: auto; opacity: 0.3;filter:brightness(200%); z-index:-4" src="http://www.clipartbest.com/cliparts/RcA/67M/RcA67Me7i.png">
+	{block:Pagination}
+<div id="navigation">
+                    {block:PreviousPage}<a href="{PreviousPage}">&larr; {lang:Previous}</a>{/block:PreviousPage}
+                    
+                    {block:NextPage}<a href="{NextPage}">{lang:Next} &rarr;</a>{/block:NextPage}
+                </div>
+            {/block:Pagination}
+                
+            </div> 
+	
+	<div id="progmenu" class="flashyborder">
+	    <div id="progmenutitle">Current Project:</div>
+	    <div id="progpic"></div>
+	</div>
+
+	
+	
+	
+	
+</div> <!--topmid -->
+
+
+
+<!--DO NOT REMOVE THIS CODE WITHIN THIS COMMENT-->
+ <a href="http://crocketts-themes.tumblr.com/" title="theme by crockett">
+<div id="ident2"></div></a>
+  
+<a href="http://badmecha007.tumblr.com/" title="main blog">
+<div id="ident"></div></a>
+
+<!---->
+
+<div id="content">
+
+{block:Posts}
+<div id="posts">
+
+
+{block:Photo}
+
+<div style="font: 16px 'Limelight', cursive; border: 3px inset #E54BB4; text-align:center">PHOTO:</div>
+{LinkOpenTag}<div id="photo"><img src="{PhotoURL-500}" align="center"/></div>{LinkCloseTag}
+{block:Caption}<div class="text">{Caption}</div>{/block:Caption}
+{/block:Photo}
+ 
+ 
+{block:Photoset}
+
+<div style="font: 16px 'Limelight', cursive; border: 3px inset #E54BB4; text-align:center">PHOTOSET:</div>
+<div id="bphotoset"><div class="photoset" align="center" >{Photoset-400}</div></div>
+{block:Caption}<div class="text">{Caption}</div>{/block:Caption}
+{/block:Photoset}
+ 
+{block:Video}
+
+<div style="font: 16px 'Limelight', cursive; border: 3px inset #E54BB4; text-align:center">VIDEO:</div>
+<div class="vidya" align="center">{Video-400}</div>
+{block:Caption}<div class="text">{Caption}</div>{/block:Caption}
+{/block:Video}
+ 
+{block:Audio}
+
+<div style="font: 16px 'Limelight', cursive; border: 3px inset #E54BB4; text-align:center">AUDIO:</div>
+
+<table id="title" width="100%" border="4" bordercolor="3f00ff" style="font:20px 'Seaweed Script', cursive; text-transform:lowercase;text-align:center; border: 3px inset #E54BB4; margin-top: 10px;">
+  <tr>
+    <td rowspan="3" style="width:110px;">{block:AlbumArt}<img src="{AlbumArtURL}" width="110">{/block:AlbumArt}</td>
+    <td><i>{block:Artist}{Artist}{/block:Artist} - {block:TrackName}{TrackName}{/block:TrackName}</i></td>
+  </tr>
+  <tr>
+    <td>{block:AudioPlayer}<div id= "audioplayer">{AudioPlayerBlack}</div>{/block:AudioPlayer}</td>
+  </tr>
+  <tr>
+    <td>{PlayCountWithLabel}</td>
+  </tr>
+</table>
+
+
+
+<div class="text"></div>
+{block:Caption}<div class="text">{Caption}</div>{/block:Caption}
+{/block:Audio}
+ 
+{block:Quote}
+<div style="font: 16px 'Limelight', cursive; transform:translate(190px, -25px)">QUOTE:</div>
+<div class="title">“{Quote}”</div>
+{block:Source}<div class="text"><br>~ {Source}</div>{/block:Source}
+{/block:Quote}
+ 
+{block:Text}
+{block:Title}<div class="title">{Title}</div>{/block:Title}
+<div class="text">{Body}</div>
+{/block:Text}
+ 
+{block:Answer}
+<div class="asker">{Asker}</div>
+<div id="question">{Question}</div>
+<div class="text">{Answer}</div>
+{block:Answer}
+ 
+{block:Chat}
+{block:Title}<div class="title">{Title}</div>{/block:Title}
+<div class="text">
+{block:Lines}
+{block:Label}<strong>{Label}</strong>{/block:Label} {Line}<br />
+{/block:Lines}
+</div> <!--text-->
+{/block:Chat}
+ 
+{block:Link}
+<div class="title"><a href="{URL}">{Name}</a></div>
+{block:Description}
+<div class="text">{Description}</div>
+{/block:Description}
+{/block:Link}
+
+
+<div id="infoblock">
+<a href="{ReblogURL}" target="_blank" title="REBLOG">
+<div id="rebline" class="sbars" align="center"><b>{block:Date}
+    		POSTED {MonthNumberWithZero}{DayOfMonthWithZero}-{Year} AT {24HourwithZero}{Minutes}</b>{/block:Date}
+</div>
+</a> 
+<a href="{Permalink}" title="PERMALINK">
+<div id="likeline" class="sbars" align="center"><b>{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount}</b></div>
+</a>
+<div id="permline" class="sbars" align="center"><b>{block:HasTags}{block:Tags}<a href="{TagURL}"><b>{Tag}</b></a><span class="comma">, </span>{/block:Tags}{/block:HasTags}<span class="comma"> </span></b></div>
+</div>
+
+
+<!--
+<div id="permabox">
+<div id="permalink">
+
+</div> -->
+
+
+
+
+ 
+
+ 
+
+ 
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+ 
+{block:PostNotes}
+<div id="notecontainer">{PostNotes}</div>
+{/block:PostNotes}
+<!-- </div> -->
+ 
+
+{/block:Posts}
+
+ 
+ 
+            
+
+
+</div> <!--content-->
+
+</body>
