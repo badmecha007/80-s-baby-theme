@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+     ---------------------
+      -------------------
+       -----------------
+        ---------------
+         -BADMECHA007-
+          -----------
+           ---------
+            -------
+             -----
+              ---
+               -
+           
+           
+========================personal theme 1 - 80's baby==============================
+-->
+
+
+<title>THEMES</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'> 
+     
+	<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+    
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+     
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Tinos:700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Jaldi:700' rel='stylesheet' type='text/css'>   
+    
+    <link href="https://fonts.googleapis.com/css?family=Prompt:900" rel="stylesheet">
+    <link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css"><!--scrollbaar stylesheet-->
+
+<style type="text/css">
+
+	body {
+		background: #322E2B url('http://i.imgur.com/atYtIOA.png') top right fixed no-repeat ;
+		background-size: cover;
+        margin-left: auto;
+        z-index:-999;
+		margin-right: auto;
+        padding: 0;
+        font:normal 20px 'Anaheim', sans-serif;
+        font-size: 20px;
+        color: {color:Text};
+}
+
+
+h2,h3,h4{
+            font-family: 'Limelight', cursive;
+}
+
+    img {
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left:auto;
+        margin-right: auto;
+}
+
+
+#bgrnd{
+        height:0px;
+        width: 0px;
+        z-index:-1;
+        margin:auto;
+        position: fixed;
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+
+    
+}
+
+#bgrnd #blk{
+    width:800px;
+    height:500px;
+    background: rgba(0,0,0,0.7);
+    position:absolute;
+    top:-190px;
+    left:-300px;
+    border-right:5px outset #372EA1 ;
+    border-left:5px outset #372EA1;
+    border-bottom:5px outset #372EA1;
+      animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: 999;
+}
+
+
+
+
+@keyframes lights {
+    0% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    8% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+    25% {box-shadow:
+        0 0 9px 3px #fff,
+        0 0 20px 6px #70d8a8, 
+        0 0 14px 9px #e58b50;}
+    41% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 15px 6px #0ff, 
+        0 0 14px 9px #70d8a8;}
+    57% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #9370DB, 
+        0 0 14px 9px #0ff;}
+    83% {box-shadow:
+        0 0 6px 3px #fff,
+        0 0 5px 6px #cc70d8, 
+        0 0 14px 9px #9370DB;}
+    100% {box-shadow:
+        0 0 3px 3px #fff,
+        0 0 10px 6px #e58b50, 
+        0 0 14px 9px #f95454;}
+}
+
+
+	.header  {
+
+
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		z-index:1;
+
+		}
+
+    #headert{
+        height: 20px;
+		width: 100% ;
+		top: 0px;
+		z-index: 1;
+		background: #58D6FC;
+    }
+
+    #headerb{
+        height: 20px;
+		width: 100% ;
+		bottom: 0px;
+		z-index: 1;
+		background: #E54BB4;
+    }
+    
+    #headerr{
+        width: 20px;
+		height: 100%;
+		right: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+    
+    #headerl{
+        width: 20px;
+		height: 100%;
+		left: 0px;
+		z-index: 2;
+		background: linear-gradient(to bottom, rgba(88,214,252,1) 0%,rgba(83,134,237,1) 40%,rgba(229,75,180,1) 100%);
+    }
+        
+
+    
+    #topmid {
+        height:0px;
+        width: 0px;
+        z-index:999;
+        margin:auto;
+        position: fixed;
+        
+        right:50%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.25);
+
+
+    }
+    
+    #topmid #titleblock {
+        height:240px;
+        width:600px;
+		position: fixed;
+    border-top-left-radius:120px;
+    border-bottom-left-radius:120px;
+	top:-330px;
+	left:-500px; 
+		z-index:9999;
+        transform: rotate(-17deg);
+	}
+ #topmid  #titleblock a{
+                color:rgba(242,242,242,1);
+     text-shadow: 0 0 10px rgba(0,67,255,1) , 0 0 20px rgba(0,127,255,1) , 0 0 30px rgba(0,174,255,1) , 0 0 40px #00ffc3 , 0 0 70px #00ff6a , 0 0 80px #00ff4c , 0 0 100px #00ff1d ;
+     transition: text-shadow .5s;
+     z-index:9999;
+  }
+   #topmid #titleblock a:hover {
+  text-shadow: 0 0 10px rgba(0,255,25,1) , 0 0 20px rgba(0,255,85,1) , 0 0 30px rgba(0,255,148,1) , 0 0 40px #00ffff , 0 0 70px #00bbff , 0 0 80px #00bbff , 0 0 100px #00aeff ;
+}
+  .titletext{
+    position:fixed;
+    margin-left:220px;
+    font: 100px 'Seaweed Script', cursive;
+    
+  }
+    #topmid #titleblock img{
+      top: 12px;
+  }
+  .neonbars{
+      z-index:-9999;
+      position:fixed;
+            animation-name: lights;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width:700px;
+  height:0;
+      
+  }
+    #neon1{
+      margin-top:100px;
+  }
+  #neon2{
+      margin-top:120px;
+  }
+	
+	
+	
+    #sidebarm {
+        height:100%;
+        width: 1000px;
+        margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+		top: 25%;
+		bottom:0;
+    }
+    
+    .opbars {
+        height: 20px;
+        -webkit-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        box-shadow: 15px 10px 0px 0px rgba(0,0,0,1);
+        text-align: right;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-decoration:none;
+        z-index:98;
+        font: 12px 'Oswald', sans-serif;
+        padding-right:.4em;
+        transition: box-shadow 0.4s, background 0.4s, letter-spacing 0.8s;
+    }
+
+    #topmid #redopbar {
+        width:600px;
+        background:red;
+        cursor:cell;
+		position: fixed;
+		top: -220px;
+		left: -60px;
+		color:yellow;
+    }
+
+    #topmid #redopbar:hover {
+        color: red;
+        letter-spacing: 10px;
+        background-color:cyan;
+        box-shadow:
+        0 0 3px 1px #fff,  /* inner white */
+        0 0 5px 3px #9370DB  , /* middle magenta */
+        0 0 7px 4px #0ff; /* outer cyan */
+    }
+    
+    
+    #topmid #ylwopbar {
+        background:yellow;
+		position: fixed;
+		top: -190px;
+		left: -200px;
+        width:650px;
+    }
+    
+    #topmid #grnopbar {
+        background:green;
+		position: fixed;
+		top: -160px;
+		left: -300px;
+        width:650px;
+    }
+
+    #topmid #bluopbar {
+        background:blue;
+		position: fixed;
+		top: -130px;
+        width:600px;
+        left:-350px;
+    }
+
+    #topmid #desc{
+        width:180px;
+        max-height:400px;
+        min-height:20px;
+       /* background:url('https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/11417399_440096642832305_369483626_n.jpg?ig_cache_key=MTAwMzc2NjY1MjIzMzcwNTM2NQ%3D%3D.2') center no-repeat;
+        background-size:cover;  */
+        box-shadow:
+        0 0 3px 1px #fff,  
+        0 0 5px 3px #9370DB  ,
+        0 0 7px 4px #0ff;
+        position:fixed;
+        border: 3px outset red;
+        padding: .3em .1em .3em .1em;
+        transform: translate(-275px,-30px);
+        font: 18px 'Limelight', cursive;
+        text-shadow: 
+            1px 1px #000,
+            2px 2px #000,
+            3px 3px #000;
+        color: yellow;
+        text-align:center;
+        text-transform: uppercase;
+        transition: text-shadow 1s;
+    }
+    
+    #topmid #desc:hover{
+        text-shadow: 
+        0 0 rgba(255,255,255,0), 
+        1px 1px 0 red, 
+        2px 2px 0 orange, 
+        3px 3px 0 yellow, 
+        4px 4px 0 green, 
+        5px 5px 0 blue, 
+        6px 6px 0 indigo, 
+        7px 7px 0 violet;
+    }
+    
+    #content {
+        background:url('http://www.richardfarrar.com/downloads/cctv-lines.png') top left fixed repeat;
+        left:200px;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        margin-top: -220px;
+        position:absolute;
+		width: 750px;
+		height: 380px;
+        overflow-y: auto;
+        overflow-x: hidden;
+		color: #fff;
+		float: center;
+		margin: auto;
+		margin-top: -220px;
+	    border: 5px outset #372EA1;
+	    transform: translate(0,130px);
+
+    }
+
+
+
+#infoblock{
+    display:inline-block;
+    
+}
+
+
+    #ident {
+        background: url('http://i.imgur.com/9MBwXCI.png') center no-repeat;
+        background-size: contain;
+        height:50px;
+        width:50px;
+        bottom:20px;
+        z-index:99999999;
+        position:fixed;
+        right:20px;
+        opacity:0.6;
+        transition: opacity 0.6s;
+    }
+    #ident:hover {
+        opacity:1;
+    }
+    
+    #ident2 {
+        background: url('http://i.imgur.com/LUl64GJ.png') center no-repeat;
+        background-size: contain;
+        height:50px;
+        width:50px;
+        bottom:75px;
+        z-index:99999999;
+        position:fixed;
+        right:20px;
+        opacity:0.6;
+        transition: opacity 0.6s;
+    }
+    #ident2:hover {
+        opacity:1;
+    }
+
+                             
+#s-m-t-tooltip {
+    max-width:300px;
+    transform: translate(0.5em, 0.5em);
+    height:18px;
+    border-radius: 0px;
+    padding:4px;
+    color:#FFFF00;
+    text-shadow: 1px 1px #000;
+    border:2px solid #000;
+    letter-spacing:1px;
+    background: #ef3ed5; /* Old browsers */
+    background: -moz-linear-gradient(top, #ef3ed5 0%, #2ec5ea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ef3ed5 0%,#2ec5ea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ef3ed5 0%,#2ec5ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3ed5',      endColorstr='#2ec5ea',GradientType=0 ); 
+    font: 15px 'Limelight', cursive;
+    z-index:99999;}
+ 
+
+#banner{
+	    font: 20px 'Seaweed Script', cursive;
+	    height: 330px;
+	    width: 125px;
+	    top:0;
+	        pointer-events: none;
+	        
+}
+/*beginning of head link for post*/
+
+
+
+.links_body { 
+    display: block;
+    float:center;
+    padding: .2em .8em;
+    text-decoration: none;
+
+} 
+
+ .links_body li {
+     margin: 0 0 .4em 0;
+    /* font: 15px 'Seaweed Script', cursive;*/
+     text-align:center;
+}
+.links_body ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width:424px;
+}
+
+ .links_body a
+{
+    display: block;
+    padding: 0em .8em;
+    text-decoration: none;
+
+
+}
+
+ .links_list { 
+    margin: 20px 0 20px 150px; 
+    padding:0px; 
+    width:460px;
+    float:center;
+    overflow: hidden;
+    display:block;
+
+} 
+    
+ .links_head { 
+    font:20px 'Seaweed Script', cursive;
+    padding-top:50px;
+    padding-bottom:50px; 
+    cursor:pointer; 
+    float:center;
+    position:relative; 
+    margin:0px;
+    width:450px;
+    text-align:center;
+    opacity:1.0;
+    transition: color 0.4s, background-color 0.4s, opacity 0.4s;
+
+    
+} 
+
+ .links_head:hover{ 
+    opacity:0.5;
+
+}
+
+
+/******************************************VTBAR****************/
+
+#valvethemesbody {
+ /*   transform: translateY(-300px);*/
+}
+
+#vthhead{
+        background:url('http://i.imgur.com/11xeopV.png');
+    background-size:contain;
+    border: 5px inset #7700ff;
+        text-shadow: 1px 1px #420023;
+    color: #CC3A3A;
+}
+#vthhead:hover{
+     color:#000;
+}
+
+#vtoverlay{
+    pointer-events: none;
+    width:410px;
+    padding:32px 25px;
+    position:absolute;
+    background: transparent;
+    text-align:center;
+    font: 20px 'Limelight', cursive;
+}
+
+#vtbody{
+    background:#322E2B;
+    border-right: 3px solid #C8C8C8;
+    border-bottom: 3px solid #C8C8C8;
+    border-left: 3px solid #C8C8C8;
+}
+
+#nhf a{
+    color: #F37B21;
+}
+#nhf a:hover{
+    color:#A3A3A3;
+}
+.cms{
+    font: 15px 'Seaweed Script', cursive;
+    border:2px solid #FF00DD;
+    background: rgba(0,255,149,0.3);
+}
+
+#nhf{
+    background:#000;
+    font: 18px 'Jaldi', sans-serif;
+    text-transform: uppercase;
+    border: 3px solid #F37B21;
+    transition: border 0.4s;
+}
+
+#nhf:hover{
+        border: 3px solid #A3A3A3;
+}
+
+#sav{
+    border-bottom: 3px dotted #f36500;
+border-top: 3px dotted #f36500;
+border-left: 3px dashed #f36500;
+border-right: 3px dashed #f36500;
+background:#000;
+text-transform: lowercase;
+font: normal 18px 'Anaheim', sans-serif;
+padding: 3px 0px;
+}
+
+#sav a{
+    color:#f36500;
+}
+
+#sav a:hover{
+    color: #61FFFF;
+}
+
+/******************************************GZBAR****************/
+
+
+#gzhead{
+        background:url('http://images.akamai.steamusercontent.com/ugc/547507944935053892/4180E77CD57D33201312D52F67B322AECA01C65E/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C637:358&composite-to=*,*%7C637:358&background-color=black');
+    background-size:cover;
+    border: 5px inset red;
+        text-shadow: 1px 1px #420023;
+    color: #CC3A3A;
+}
+#gzhead:hover{
+     color:#000;
+}
+
+#gzoverlay{
+    pointer-events: none;
+    width:410px;
+    padding:32px 25px;
+    position:absolute;
+    background: transparent;
+    text-align:center;
+    font: 20px 'Limelight', cursive;
+}
+
+
+#gzbod{
+    background: #001920;
+    border-right: 3px solid #E6E6E6;
+    border-bottom: 3px solid #E6E6E6;
+    border-left: 3px solid #E6E6E6;
+}
+
+#ldcold {
+    background: url('http://i60.tinypic.com/30a6gci.jpg') top repeat;
+    text-transform: uppercase;
+    border: 3px solid  #f0d657;
+    font-family: 'Prompt', sans-serif;
+    transition: border 0.4s;
+    
+}
+
+#ldcold a{
+    color: #f0d657;
+}
+
+#ldcold:hover {
+    
+}
+
+#gorillazthemesbody{
+/*transform: translateY(-610px);*/
+}
+
+
+/******************************************NSBAR****************/
+
+#nshead{
+        background:url('https://scontent.fmel1-1.fna.fbcdn.net/v/l/t1.0-9/14344771_1378253098869984_1769868730234186259_n.jpg?oh=e33bca943bf949cbbf66c6e70de4b788&oe=587F2A39');
+    background-size:cover;
+    border-bottom: 5px inset #E54BB4;
+    border-right: 5px inset #E54BB4;
+    border-top: 5px inset #58D6FC;
+    border-left: 5px inset #58D6FC;
+        text-shadow: 2px 2px #33cccc;
+    color: #ff00ff;
+}
+
+#nsoverlay{
+    pointer-events: none;
+    width:410px;
+    padding:32px 25px;
+    position:absolute;
+    background: transparent;
+    text-align:center;
+    font: 20px 'Limelight', cursive;
+}
+
+#nsbod{
+    background: rgb(66,30,150); /* 
+background: -moz-linear-gradient(top, rgba(66,30,150,1) 0%, rgba(165,40,214,1) 50%, rgba(34,163,214,1) 54%, rgba(169,164,219,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(66,30,150,1) 0%,rgba(165,40,214,1) 50%,rgba(34,163,214,1) 54%,rgba(169,164,219,1) 100%); 
+background: linear-gradient(to bottom, rgba(66,30,150,1) 0%,rgba(165,40,214,1) 50%,rgba(34,163,214,1) 54%,rgba(169,164,219,1) 100%);  */
+    border-right: 3px solid rgba(34,163,214,1);
+    border-bottom: 3px solid rgba(34,163,214,1);
+    border-left: 3px solid rgba(34,163,214,1);
+}
+
+/* for portal theme text sec color     color: #61FFFF;*/
+
+.mCSB_scrollTools .mCSB_draggerRail { background:rgba(0,255,106, 0.5); width:2px; }
+
+
+.mCSB_draggerContainer { width:8px; }
+.mCSB_scrollTools .mCSB_dragger { cursor:auto; }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width:5px;
+    background:#ffffcc;
+    text-align:center;
+    box-shadow: 0 0 3px 1px #fff, 0 0 5px 3px #ffff1a, 0 0 7px 4px #ffff4d;
+    border-radius:2px; }
+.mCSB_scrollTools { opacity:1; }
+
+
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.js"></script><!--scrollbar code-->
+ 
+  <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+ 
+ <script>
+ var jqscroll = $.noConflict()
+    (function(jqscroll){
+        jqscroll(window).on("load",function(){
+            jqscroll("#content").mCustomScrollbar({
+                scrollInertia:700,
+                alwaysShowScrollbar: 2,
+                MouseWheel:{ enable: true },
+                scrollButtons:{ enable: false },
+                keyboard:{ enable: true },
+                scrollbarPosition:"inside",
+            });
+        });
+    })(jQuery);
+</script>
+
+ 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="http://static.tumblr.com/fiw4iub/4jdnu5ta4/jquery.style-my-tooltips.js"></script><!--tooltip code-->
+ <!--tooltip script-->
+<script>
+ var jqttip = $.noConflict()
+(function(jqttip){
+jqttip(document).ready(function(){
+jqttip("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:10,
+tip_fade_speed:0,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+
+<script type="text/javascript">
+function open(askbox) {
+    var askcontainer = document.getElementById(askbox);
+    if (askcontainer) {askcontainer.className=(askcontainer.className=='closed')?'open':'closed';}
+}
+</script>
+
+<script type="text/javascript" src="http://static.tumblr.com/3ikgvxs/0TGl4zgpu/jquery.min.js"></script> 
+<script type="text/javascript">
+ var jqopenbox = $.noConflict()
+jqopenbox(document).ready(function(){ 
+jqopenbox(".links_body").hide(); 
+jqopenbox(".links_head").click(function(){ 
+jqopenbox(this).next(".links_body").slideToggle('fast'); 
+}); }); </script> 
+
+
+</head>
+<body>
+<div id="headert" class="header"></div>
+<div id="headerb" class="header"></div> 
+<div id="headerr" class="header"></div>
+<div id="headerl" class="header"></div>
+
+<div id="bgrnd">
+    <div id="blk"></div>
+</div>
+
+<div id="topmid">
+    <a href="/" title="BACK TO CROCKETT'S THEMES"><div id="redopbar" class="opbars" ><i>HOME</i></div></a>
+    <div id="ylwopbar" class="opbars"> ♦ </div>
+    <div id="grnopbar" class="opbars"> ♦ </div>
+    <div id="bluopbar" class="opbars"> ♦ </div>
+
+
+	<div id="titleblock"><a href="http://crocketts-themes.tumblr.com/">
+<img src="http://i.imgur.com/LUl64GJ.png" width="220" height="220" style="position: absolute; z-index: 1">
+<div id="neon1" class="neonbars"></div>
+<div id="neon2" class="neonbars"></div>
+<div class="titletext">crockett's </div>
+<div class="titletext" style="margin-top:90px">themes</div>
+</a>
+</div>
+
+</div>
+
+
+
+<!--DO NOT REMOVE THIS CODE WITHIN THIS COMMENT-->
+  
+ <a href="http://crocketts-themes.tumblr.com/" title="theme by crockett">
+<div id="ident2"></div></a>
+  
+<a href="http://badmecha007.tumblr.com/" title="main blog">
+<div id="ident"></div></a>
+
+<!---->
+<div id="titleint">
+<h2 style="font-size:22px;text-align;center; color:#33cca6;position:absolute; border: 3px inset #cc33a6; padding:.2em .3em">THEMES:</h2>
+</div>
+ 
+<div id="content">
+		<div id="valvethemesbody" class="links_list"> 
+		<div id="vtoverlay">Themes and pages based off Valve's videogames, including Team Fortress, Half-Life and Portal.</div>
+<p id="vthhead" class="links_head">valve themes</p> 
+<div  class="links_body" id="vtbody"> 
+<ul> 
+<li style="color: #F37B21"id="nhf"><a href="http://crocketts-themes.tumblr.com/post/147170670490/no-hard-feelings-by-crocketts-themes-a-simple" title="simple redirect page" target="_blank">half-life - no hard feelings</a></li>
+
+<li style="color: #F37B21" id="sav"><a href="http://crocketts-themes.tumblr.com" target="_blank" title="end title theme">portal - still alive theme</a></li>
+
+<li class="cms" >tf2 loadout theme - coming soon</li>
+<li class="cms">citadel theme -coming soon</li>
+</ul> 
+</div></div>
+
+
+
+		<div id="gorillazthemesbody" class="links_list"> 
+		<div id="gzoverlay">Themes based off the popular British band, Gorillaz.</div>
+<p id="gzhead" class="links_head">gorillaz themes</p> 
+<div  class="links_body" id="gzbod"> 
+<ul> 
+<li id="ldcold" ><a href="http://crocketts-themes.tumblr.com/askalt" title="Old & buggy - ask for code" target="_blank">OLD - lil' dub chefin theme</a></li>
+<li class="cms">revamped ldc theme - coming soon</li>
+</ul> 
+</div></div>
+
+
+		<div id="nsthemesbody" class="links_list"> 
+		<div id="nsoverlay">80's, 90's and vapor/synthwave inspired themes</div>
+<p id="nshead" class="links_head">nostalgia themes</p> 
+<div  class="links_body" id="nsbod"> 
+<ul> 
+<li class="cms">miami vice redirect - coming soon</li>
+<li class="cms">80's baby (personal theme) - coming soon</li>
+<li class="cms">kyoto vice - coming soon</li>
+</ul> 
+</div></div>
+
+
+
+
+
+</div> <!--content-->
+
+</body>
